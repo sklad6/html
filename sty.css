@@ -6,6 +6,7 @@
 	font-size: 200%;
 	color:white;
 	position:relative;
+	font-family: 'Quicksand', sans-serif;
 }
 .main h1{
 	margin: 0;
@@ -13,25 +14,31 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	font-family: 'Quicksand', sans-serif;
 }
 .mid{
+	padding-top:20px;
 	text-align: center;
-	
+	font-family: 'Quicksand', sans-serif;
 }
 .mid p{
 	text-align: center;
 	padding-right: 20%;
 	padding-left: 20%;
+	font-family: 'Quicksand', sans-serif;
 	 
 }
 .mid h2{
+	font-size:250%;
 	text-align: center;
-	
+	font-family: 'Quicksand', sans-serif;
 }
 .links{
 	font-size: 150%;
 	text-align: center; 
-	color:red;
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 120px;
+	margin-bottom:100px;
 }
 .galmain{
 	background-image: url(https://images.pond5.com/simple-star-space-background-effect-footage-023768280_prevstill.jpeg);
@@ -40,6 +47,7 @@
 	font-size: 200%;
 	color:white;
 	position:relative;
+	font-family: 'Quicksand', sans-serif;
 }
 .galmain h1{
 	margin: 0;
@@ -47,30 +55,47 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	font-family: 'Quicksand', sans-serif;
 }
-.galBG{
-	background-color:white;
-	text-align:center;
-	padding-right: 20%;
-	padding-left: 20%;
-	
-	
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 350px;
+ 
 }
-.galpt{
-	font-size:30px;
-	display:grid;
-	grid-template-columns:repeat(3, 1fr);
-	overflow:hidden;
-	
- }
- .galbox{
-	 width:auto;
-	 
- }
-.galcenter{
-	max-width:100%;
-	
+
+div.gallery:hover {
+  border: 1px solid #777;
 }
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+.galbody{
+	height:100%;
+	display: flex;
+    flex-wrap: wrap;
+	padding-right: 10%;
+	padding-left: 10%;
+	
+	
+		
+}
+.galbigp{
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .laimain{
 	background-image: url(https://images.pond5.com/simple-star-space-background-effect-footage-023768280_prevstill.jpeg);
 	height: 20%;
@@ -78,6 +103,7 @@
 	font-size: 200%;
 	color:white;
 	position:relative;
+	font-family: 'Quicksand', sans-serif;
 }
 .laimain h1{
 	margin: 0;
@@ -85,23 +111,42 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	font-family: 'Quicksand', sans-serif;
 }
 .laitit{
 	text-align:center;
 	font-size:40px;
-	
+	font-family: 'Quicksand', sans-serif;
 }
 .latsec{
 	text-align:center;
 	font-size:30px;
 	padding-right: 10%;
 	padding-left: 10%;
-	
-	
-}
-.aboutitle{
+	font-family: 'Quicksand', sans-serif;
 	
 }
-.aboutmain{
+.latsec div{
+	margin-top:85px;
+	margin-bottom:85px;
+}
+.latseclinks{
+	border-top:1px solid black;
+	padding-top:20px;
+}
+	
+.button {
+  background-color: #A9A9A9;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button:hover {
+	background-color:black;
+	color:white;
 	
 }
