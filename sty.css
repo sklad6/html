@@ -155,12 +155,10 @@ div.desc {
 	
 }
 .aboutpic{
-
- height: 100%;
- width: 100%;
- object-fit: contain;
- 
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 .aboutinfo{
 	font-family: 'Quicksand', sans-serif;
