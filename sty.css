@@ -86,14 +86,7 @@ div.desc {
 	padding-right: 10%;
 	padding-left: 10%;
 	
-	
-		
-}
-.galbigp{
-	  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+			
 }
 
 .laimain{
@@ -148,5 +141,30 @@ div.desc {
 .button:hover {
 	background-color:black;
 	color:white;
+	
+}
+
+.aboutitle{
+	background-image: url(https://images.pond5.com/simple-star-space-background-effect-footage-023768280_prevstill.jpeg);
+	font-family: 'Quicksand', sans-serif;
+	height: 20%;
+	text-align: center;
+	font-size: 200%;
+	color:white;
+	position:relative;
+	
+}
+.aboutpic{
+
+ height: 100%;
+ width: 100%;
+ object-fit: contain;
+ 
+
+}
+.aboutinfo{
+	font-family: 'Quicksand', sans-serif;
+	text-align:center;
+	font-size:30px;
 	
 }
